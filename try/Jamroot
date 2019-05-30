@@ -1,0 +1,19 @@
+# Copyright Stefan Seefeld 2016.
+# Distributed under the Boost Software License, Version 1.0.
+# (See accompanying file LICENSE_1_0.txt or copy at
+# http://www.boost.org/LICENSE_1_0.txt)
+
+import python ;
+lib boost_python ;
+project prob_model
+  : requirements
+    <library>boost_python
+    ;
+
+
+python-extension prob_model : test.cpp ;
+
+# run-test prob_model : prob_model hello.py ;
+
+# alias test : prob_model;
+# explicit test ;
