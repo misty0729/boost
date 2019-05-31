@@ -5,15 +5,15 @@
 
 import python ;
 lib boost_python ;
-project prob_model
+project mygreet
   : requirements
     <library>boost_python
     ;
 
 
-python-extension prob_model : test.cpp ;
+python-extension mygreet : test.cpp ;
 
-# run-test prob_model : prob_model hello.py ;
+# run-test prob_model :  hello.py ;
 
 # alias test : prob_model;
 # explicit test ;

@@ -6,10 +6,10 @@ using namespace std;
  
 int greet()
 {
-    return 1;
+    cout << "hello bbh!" << endl;
 }
  
-BOOST_PYTHON_MODULE(hello_ext)
+BOOST_PYTHON_MODULE(mygreet)
 {
     using namespace boost::python;
     def("greet", greet);

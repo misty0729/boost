@@ -1,0 +1,2 @@
+import mygreet
+mygreet.greet()
