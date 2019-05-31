@@ -1,10 +1,11 @@
 #include<string>
+#include <iostream>
 #include <boost/python.hpp>
  
 using namespace std;
  
  
-int greet()
+void greet()
 {
     cout << "hello bbh!" << endl;
 }
