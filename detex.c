@@ -56,8 +56,10 @@
 #include <kpathsea/c-std.h>
 #include <kpathsea/tex-file.h>
 #include <boost/python.hpp>
+#include <iostream>
 
-
+using namespace std::cout;
+using namespace std::endl;
 using namespace boost::python;
 
 #ifdef HAVE_SYS_PARAM_H
@@ -4616,4 +4618,14 @@ VersionExit(void)
 		VERSION);
 	exit(0);
 }
+ 
+void greet()
+{
+    cout << "hello bbh!" << endl;
+}
 
+BOOST_PYTHON_MODULE(mygreet)
+{
+    using namespace boost::python;
+    def("greet", greet);
+}
