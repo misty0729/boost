@@ -2,8 +2,7 @@
 #include <boost/python.hpp>
 #include <iostream>
 
-using namespace std::cout;
-using namespace std::endl;
+using namespace std;
 using namespace boost::python;
 
  
