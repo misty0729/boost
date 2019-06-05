@@ -1,4 +1,4 @@
-#include <detex.c>
+#include </home/misscut/qianz/boost/detex.h>
 #include <boost/python.hpp>
 #include <iostream>
 
