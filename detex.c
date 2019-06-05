@@ -4618,14 +4618,3 @@ VersionExit(void)
 		VERSION);
 	exit(0);
 }
- 
-void greet()
-{
-    cout << "hello bbh!" << endl;
-}
-
-BOOST_PYTHON_MODULE(mygreet)
-{
-    using namespace boost::python;
-    def("greet", greet);
-}

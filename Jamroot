@@ -11,7 +11,7 @@ project prob_model
     ;
 
 
-python-extension mygreet : detex.c ;
+python-extension mygreet : wrapper.cpp ;
 
 # run-test prob_model : prob_model hello.py ;
 
