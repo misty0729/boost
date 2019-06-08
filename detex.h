@@ -48,6 +48,8 @@
 **	MAXENVS - maximum number of environments listed in the ignore list
 **	CCHMAXENV - maximum count of characters in an environment name (LaTex)
 ******/
+#ifndef DETEX_H_
+#define DETEX_H_
 
 #define	MAXINCLIST	40
 
@@ -87,3 +89,5 @@
 
 extern "C"
 int test(int cArgs, char *rgsbArgs[]);
+
+#endif
