@@ -1,5 +1,4 @@
-extern "C" #include "detex.h"
-#include <boost/python.hpp>
+extern "C" #include "detex.h>
 #include <iostream>
 
 using namespace boost::python;
