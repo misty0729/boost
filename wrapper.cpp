@@ -1,7 +1,8 @@
-extern "C" #include "detex.h>
+extern "C" #include "detex.h"
+//#include <boost/python.hpp>
 #include <iostream>
 
-using namespace boost::python;
+// using namespace boost::python;
 
  
 void greet()
@@ -9,7 +10,7 @@ void greet()
     std::cout << "hello cute  bbh!" << std::endl;
 }
  
-BOOST_PYTHON_MODULE(mygreet)
-{
-    def("greet", greet);
-}
+// BOOST_PYTHON_MODULE(mygreet)
+// {
+//     def("greet", greet);
+// }
