@@ -1,4 +1,4 @@
-extern "C" #include "detex_modified.c"
+extern "C" #include "detex.h"
 #include <boost/python.hpp>
 #include <iostream>
 

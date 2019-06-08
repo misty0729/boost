@@ -84,3 +84,6 @@
 #define CHVERSIONOPT 'v'
 
 #define	my_ERROR	-1
+
+extern "C"
+int test(int cArgs, char *rgsbArgs[]);
