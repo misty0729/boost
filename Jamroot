@@ -11,7 +11,7 @@ project prob_model
     ;
 
 
-python-extension mygreet : wrapper.cpp
+python-extension mygreet : wrapper.cpp /home/misscut/qianz/boost/libhhh.so 
 ;
 # run-test prob_model : prob_model hello.py ;
 
