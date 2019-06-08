@@ -1,18 +1,16 @@
-#include </home/misscut/qianz/boost/detex.h>
+extern "C" #include "detex_modified.c"
 #include <boost/python.hpp>
 #include <iostream>
 
-using namespace std;
 using namespace boost::python;
 
  
 void greet()
 {
-    cout << "hello bbh!" << endl;
+    std::cout << "hello cute  bbh!" << std::endl;
 }
  
 BOOST_PYTHON_MODULE(mygreet)
 {
-    using namespace boost::python;
     def("greet", greet);
 }
