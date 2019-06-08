@@ -4110,7 +4110,7 @@ void yyfree (void * ptr )
 ******/
 
 int
-test(int cArgs, char *rgsbArgs[])
+hhh(int cArgs, char *rgsbArgs[])
 {
 	char	*pch, sbBadOpt[2];
 	const char *sbEnvList = DEFAULTENV;
