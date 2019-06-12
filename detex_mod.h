@@ -2,6 +2,6 @@
 #define DETEX_MOD_H
 
 extern "C"
-int test(int cArgs, char *rgsbArgs[]);
+int hhh(int cArgs, char *rgsbArgs[]);
 
 #endif
